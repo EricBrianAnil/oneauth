@@ -11,6 +11,18 @@
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=championswimmer&url=https://github.com/coding-blocks/oneauth&title=oneauth&language=&tags=github&category=software)
 
+## Description
+
+**Oneauth** is a Single Sign On system. An use case, as is at Coding Blocks is that when there are multiple apps/websites, like http://hackerblocks.com and http://students.codingblocks.com, we would prefer to do user-management on a single server, and use the same accounts on all the servers. This is similar to what large websites like Google or Microsoft do. You use the same Google account for Gmail, Youtube, G+, Chrome and all other Google Services.
+
+We can see oneauth deployed and life in action on http://account.codingblocks.com
+
+
+Oneauth has both -
+
+- an Oauth consumption interface, so users can login with Facebook/Twitter/Google
+- an Oauth serving interface to all CodingBlocks apps/clients can use it to login.
+
 ## Design and Styles
 
 **IMPORTANT NOTE** The css is picked from [motley](https://github.com/coding-blocks/motley)
